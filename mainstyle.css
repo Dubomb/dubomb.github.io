@@ -26,16 +26,18 @@ nav {
     padding: 20px;
 }
 
-.nav-logo {
-    padding: 10px;
+.nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 500px;
 }
 
 .nav-menu {
-    margin: 10px;
-}
-
-.nav-menu a {
-    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
 }
 
 a {
