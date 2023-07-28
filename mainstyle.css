@@ -1,3 +1,11 @@
+:root {
+    --text-color: rgba(2, 20, 41, 1);
+    --background-color: rgba(233, 238, 242, 1);
+    --primary-color: rgba(29, 62, 115, 1);
+    --secondary-color: rgba(197, 217, 227, 1);
+    --accent-color: rgba(138, 61, 81, 1);
+}
+
 @font-face {
     font-family: "rubikLight";
     src: url("res/Rubik-Light.ttf");
@@ -11,7 +19,8 @@
 body {
     font-family: "rubikLights", sans-serif;
     font-size: 1.3em;
-    background-color: #eff2f4;
+    color: var(--text-color);
+    background-color: var(--background-color);
     text-align: center;
     margin: 0px auto;
 }
@@ -22,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-    background-color: #dee5e9;
+    background: var(--background-color);
     padding: 20px;
 }
 
@@ -42,20 +51,16 @@ nav {
 
 a {
     text-decoration: none;
-    color: #0a2147;
+    color: var(--primary-color);
     transition-duration: 0.3s;
 }
 
 a:hover {
-    color: #3b688c;
-}
-
-a:active {
-    color: #631d55;
+    color: var(--accent-color);
 }
 
 .footer-container {
-    background-color: #dee5e9;
+    background: var(--background-color);
     padding: 80px 0px 200px 0px;
     display: flex;
     flex-flow: column wrap;
