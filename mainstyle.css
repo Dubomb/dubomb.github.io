@@ -18,7 +18,7 @@
 
 body {
     font-family: "rubikLights", sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: var(--text-color);
     background-color: var(--background-color);
     text-align: center;
@@ -32,7 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     background: var(--background-color);
-    padding: 20px;
 }
 
 .nav-container {
@@ -40,13 +39,17 @@ nav {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    column-gap: 500px;
+    column-gap: 50%;
+    background-color: white;
+    padding: 3vw;
+    margin-bottom: 2vw;
 }
 
 .nav-menu {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    column-gap: 60px;
+    column-gap: 10vw;
 }
 
 a {
